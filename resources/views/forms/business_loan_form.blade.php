@@ -31,7 +31,7 @@
             <div class="form-group">
                 <label for="email" class="col-md-4 control-label">Email address</label>
                 <div class="col-md-8 inputGroupContainer">
-                    <div class="input-group"><input type="email" class="form-control custom-mine @error('email') is-invalid @enderror" id="email" placeholder="Enter your email address" name="email" value="{{ old('email') }}" required></div>
+                    <div class="input-group"><input type="email" class="form-control custom-mine @error('email') is-invalid @enderror" id="email" placeholder="Enter your email address" name="email" value="{{ old('email') }}" ></div>
                 </div> 
                 @error('email')
                 <span class="invalid-feedback" role="alert">
@@ -56,7 +56,9 @@
                 <label>Is it a Top-Up Loan ?</label>
                 <div class="form-check form-check-inline">
                     <div class="form-check form-check-inline">
+
                         <input class="form-check-input" type="radio" name="topup" value="No" id="topupno"  {{ old('topup') == "No" ? 'checked' : '' }} required>
+                        <input class="form-check-input" type="radio" name="topup" value="No" id="topupno" {{ old('topup') == "No" ? 'checked' : '' }} required>
                         <label class="control-label form-check-label" for="topupno">No</label>
                     </div>
                     <div class="form-check form-check-inline">

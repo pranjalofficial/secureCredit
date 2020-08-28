@@ -74,7 +74,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="{{url('/info#about_us')}}" class="nav-link">
-                            <span class="nav-link-inner-text">About Us</span>
+                            <span class="nav-link-inner-text">Why choose us ?</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -111,7 +111,7 @@
       <div class="modal-body">   
         <p>Call us : +91 93538 61327</p>
         <p>Mail us : <a href="mailto:partner_support@securecredit.in?subject=Partner with Us">partner_support@securecredit.in</a></p>
-          <div class="alert alert-info">Please attach your CV & all the relevant documents with the mail.<br>Become a Partner and make extra money without any investment</div>
+          <div class="alert alert-info">Become a Partner and make extra money without any investment</div>
       </div>
       <div class="modal-footer">
         <div class="col text-center">
